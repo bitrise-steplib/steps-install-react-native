@@ -1,1 +1,1 @@
-npm install -g react-native-cli
+npm install -g ${npm_options} react-native-cli

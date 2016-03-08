@@ -16,3 +16,11 @@ deps:
   - name: node
   - name: watchman
   - name: flow
+inputs:
+  - npm_options:
+    opts:
+      title: Additional options when installing React Native CLI with `npm install`
+      description: |-
+        Options are added to `npm install`. `-g` (global) is added by default.
+        You can use multiple options, separated by a space
+        character.
