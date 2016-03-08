@@ -1,0 +1,18 @@
+title: Install React Native
+summary: |-
+  Installs React Native CLI
+description: Installs the `react-native-cli` command line tools.
+website: https://github.com/vasarhelyia/steps-install-react-native
+source_code_url: https://github.com/vasarhelyia/steps-install-react-native
+support_url: https://github.com/vasarhelyia/steps-install-react-native/issues
+host_os_tags:
+- osx-10.10
+project_type_tags:
+- react-native
+type_tags:
+- react-native
+deps:
+  brew:
+  - name: node
+  - name: watchman
+  - name: flow
