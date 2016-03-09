@@ -1,0 +1,16 @@
+format_version: 1.1.0
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+
+app:
+  envs:
+  # define these in your .bitrise.secrets.yml
+  - BITRISE_PROJECT_PATH:
+  - BITRISE_SCHEME:
+
+workflows:
+  test:
+    steps:
+    - path::./:
+        inputs:
+        # - version: 0.1.9
+        # - npm_options: -dd -ll
