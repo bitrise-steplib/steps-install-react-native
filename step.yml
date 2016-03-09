@@ -2,9 +2,9 @@ title: Install React Native
 summary: Installs the `react-native-cli` command line tools.
 description: |-
   Installs the [React Native CLI npm package](https://www.npmjs.com/package/react-native-cli).
-website: https://github.com/vasarhelyia/steps-install-react-native
-source_code_url: https://github.com/vasarhelyia/steps-install-react-native
-support_url: https://github.com/vasarhelyia/steps-install-react-native/issues
+website: https://github.com/bitrise-io/steps-install-react-native
+source_code_url: https://github.com/bitrise-io/steps-install-react-native
+support_url: https://github.com/bitrise-io/steps-install-react-native/issues
 host_os_tags:
 - osx-10.10
 project_type_tags:
