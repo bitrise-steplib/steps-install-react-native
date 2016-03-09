@@ -17,10 +17,18 @@ deps:
   - name: watchman
   - name: flow
 inputs:
+  - version:
+    opts:
+      title: Version of the `react-native-cli` package to install
+      description: |-
+        Version of the `react-native-cli` package to install.
+        If not specified, the latest version will be selected.
+        Check the logs for the available versions from this
+        package and specify the desired verion as `0.1.9` for example.
   - npm_options:
     opts:
       title: Additional options when installing React Native CLI with `npm install`
       description: |-
         Options are added to `npm install`. `-g` (global) option is set by default.
         You can use multiple options, separated by a space
-        character.
+        character, for example `-dd -ll`
