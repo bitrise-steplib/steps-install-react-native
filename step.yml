@@ -1,29 +1,29 @@
 title: Install React Native
-summary: Installs the `react-native-cli` command line tools.
+summary: Installs the `@react-native/cli` command line tools.
 description: |-
-  Installs the [React Native CLI npm package](https://www.npmjs.com/package/react-native-cli).
+  Installs the [React Native CLI npm package](https://www.npmjs.com/package/@react-native-community/cli).
 website: https://github.com/bitrise-steplib/steps-install-react-native
 source_code_url: https://github.com/bitrise-steplib/steps-install-react-native
 support_url: https://github.com/bitrise-steplib/steps-install-react-native/issues
 host_os_tags:
-- osx-10.10
+  - osx-10.10
 project_type_tags:
-- react-native
-- ios
-- android
+  - react-native
+  - ios
+  - android
 type_tags:
-- installer
+  - installer
 deps:
   brew:
-  - name: node
-  - name: watchman
-  - name: flow
+    - name: node
+    - name: watchman
+    - name: flow
 inputs:
   - version:
     opts:
-      title: Version of the `react-native-cli` package to install
+      title: Version of the `@react-native-community/cli` package to install
       description: |-
-        Version of the `react-native-cli` package to install.
+        Version of the `@react-native/cli` package to install.
         If not specified, the latest version will be selected.
         Check the logs for the available versions from this
         package and specify the desired verion as `0.1.9` for example.
