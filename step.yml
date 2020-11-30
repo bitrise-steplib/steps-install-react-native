@@ -8,7 +8,7 @@ description: |-
   
   You can set which version of the CLI you want to use, and add any additional options to the `npm install` command.
   
-  1. In the **Version of the `react-native-cli` package to install**, set the version you need.
+  1. In the **Version of the `@react-native-community/cli` package to install**, set the version you need.
     
      For example, set it to `0.9.1`. If you leave the input empty, the Step will use the latest version.
      
@@ -30,24 +30,24 @@ website: https://github.com/bitrise-steplib/steps-install-react-native
 source_code_url: https://github.com/bitrise-steplib/steps-install-react-native
 support_url: https://github.com/bitrise-steplib/steps-install-react-native/issues
 host_os_tags:
-- osx-10.10
+  - osx-10.10
 project_type_tags:
-- react-native
-- ios
-- android
+  - react-native
+  - ios
+  - android
 type_tags:
-- installer
+  - installer
 deps:
   brew:
-  - name: node
-  - name: watchman
-  - name: flow
+    - name: node
+    - name: watchman
+    - name: flow
 inputs:
   - version:
     opts:
-      title: Version of the `react-native-cli` package to install
+      title: Version of the `@react-native-community/cli` package to install
       description: |-
-        Version of the `react-native-cli` package to install.
+        Version of the `@react-native-community/cli` package to install.
         If not specified, the latest version will be selected.
         Check the logs for the available versions from this
         package and specify the desired version. For example, `0.1.9`.

@@ -4,10 +4,10 @@ set -e
 
 VERSION=""
 
-echo "Available react-native-cli versions: $(npm view react-native-cli versions)"
+echo "Available @react-native-community/cli versions: $(npm view @react-native-community/cli versions)"
 
 if [ ! -z "${version}" ] ; then
     VERSION="@${version}"
 fi
 
-npm install -g ${npm_options} react-native-cli${VERSION}
+npm install -g ${npm_options} @react-native-community/cli${VERSION}
